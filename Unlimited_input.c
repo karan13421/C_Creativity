@@ -27,9 +27,11 @@ int main()
         else
             break;
     }
+    
+    //After taking input you can find all input in arry[]
 
-    for(int i=0;i<=(size-1);i++)
-        printf("%d",arry[i]);
+    for(int i=0;i<=(size-1);i++) //use *arry as arry[]
+        printf("%d",arry[i]); 
     
     return 0;
 }
